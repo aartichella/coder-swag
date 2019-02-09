@@ -13,6 +13,8 @@
 		C20DC029220A8BCA00DD1876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20DC028220A8BCA00DD1876 /* Assets.xcassets */; };
 		C20DC02C220A8BCA00DD1876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20DC02A220A8BCA00DD1876 /* LaunchScreen.storyboard */; };
 		C258F2B1220BD99400FD03BF /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258F2B0220BD99400FD03BF /* CategoryCell.swift */; };
+		C2E72774220CE5CC00593604 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E72773220CE5CC00593604 /* Category.swift */; };
+		C2E72777220CE7D000593604 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E72776220CE7D000593604 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C20DC02B220A8BCA00DD1876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C20DC02D220A8BCA00DD1876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C258F2B0220BD99400FD03BF /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		C2E72773220CE5CC00593604 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C2E72776220CE7D000593604 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		C20DC020220A8BC900DD1876 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				C2E72775220CE78C00593604 /* Service */,
 				C258F2AF220BD92E00FD03BF /* Controller */,
 				C258F2AE220BD92700FD03BF /* View */,
 				C258F2AD220BD91900FD03BF /* Model */,
@@ -71,6 +76,7 @@
 		C258F2AD220BD91900FD03BF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C2E72773220CE5CC00593604 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				C20DC023220A8BC900DD1876 /* CategoriesVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2E72775220CE78C00593604 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C2E72776220CE7D000593604 /* DataService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				C20DC024220A8BC900DD1876 /* CategoriesVC.swift in Sources */,
 				C20DC022220A8BC900DD1876 /* AppDelegate.swift in Sources */,
 				C258F2B1220BD99400FD03BF /* CategoryCell.swift in Sources */,
+				C2E72774220CE5CC00593604 /* Category.swift in Sources */,
+				C2E72777220CE7D000593604 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
