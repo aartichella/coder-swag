@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2076250221CB2640057D90A /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207624F221CB2640057D90A /* ProductVC.swift */; };
 		C20DC022220A8BC900DD1876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20DC021220A8BC900DD1876 /* AppDelegate.swift */; };
 		C20DC024220A8BC900DD1876 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20DC023220A8BC900DD1876 /* CategoriesVC.swift */; };
 		C20DC027220A8BC900DD1876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20DC025220A8BC900DD1876 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C207624F221CB2640057D90A /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 		C20DC01E220A8BC900DD1876 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20DC021220A8BC900DD1876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C20DC023220A8BC900DD1876 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				C20DC023220A8BC900DD1876 /* CategoriesVC.swift */,
+				C207624F221CB2640057D90A /* ProductVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				C20DC022220A8BC900DD1876 /* AppDelegate.swift in Sources */,
 				C258F2B1220BD99400FD03BF /* CategoryCell.swift in Sources */,
 				C284314D220FA06E009684E9 /* ProductCell.swift in Sources */,
+				C2076250221CB2640057D90A /* ProductVC.swift in Sources */,
 				C2E72774220CE5CC00593604 /* Category.swift in Sources */,
 				C2E72777220CE7D000593604 /* DataService.swift in Sources */,
 				C284314F220FA6B7009684E9 /* Product.swift in Sources */,
